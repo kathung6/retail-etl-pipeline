@@ -1,15 +1,3 @@
-import psycopg2
-
-conn = psycopg2.connect(
-    dbname = "retail_db",
-    user="your_user",
-    password = "your_password",
-    host = "localhost",
-    port = "5432"
-)
-
-SELECT * FROM grocery_sales
-
 import pandas as pd
 import os
 
